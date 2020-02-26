@@ -1,6 +1,7 @@
 # Your Code Here
 def map(input)
-  new = do input end
+  new =[]
+  p input
   
   return new
 end
