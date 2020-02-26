@@ -12,13 +12,12 @@ end
 def reduce (array, starting_value = nil)
   if starting_value
     index = 0
-    
-    total = yield(array[index], starting_value)
+    total = sv
   else
-    index = 0
-    total = yield(array[index])
+    index = 1
+    total = array[0]
   end
-    index+=1
+    
   end
   total
 end
