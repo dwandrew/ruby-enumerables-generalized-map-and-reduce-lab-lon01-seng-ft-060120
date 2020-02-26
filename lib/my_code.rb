@@ -1,4 +1,5 @@
 # Your Code Here
-def my_map(array, block)
+def my_map(input)
+  
   
 end
