@@ -8,3 +8,5 @@ def map(input)
   end
   return new
 end
+
+def reduce
