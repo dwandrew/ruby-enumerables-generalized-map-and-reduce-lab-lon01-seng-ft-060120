@@ -3,7 +3,7 @@ def map(input)
   new =[]
   index = 0
   while index< input.length
-  new.push(yield(input[i]))
+  new.push(yield(input[index]))
   index+=1
   end
   return new
