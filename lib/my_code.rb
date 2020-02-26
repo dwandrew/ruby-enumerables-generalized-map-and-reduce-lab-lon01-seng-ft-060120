@@ -9,7 +9,7 @@ def map(input)
   return new
 end
 
-def reduce (array, starting_value= TRUE)
+def reduce (array, starting_value= 1)
   index = 0
   total = ''
   while index<array.length
