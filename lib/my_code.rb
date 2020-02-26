@@ -9,7 +9,7 @@ def map(input)
   return new
 end
 
-def reduce (array, starting_value = '')
+def reduce (array, starting_value = 0 )
   index = 0
   while index<array.length
     total = yield(array[index]) += starting_value
