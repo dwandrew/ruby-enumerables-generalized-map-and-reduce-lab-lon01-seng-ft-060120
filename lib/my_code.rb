@@ -12,7 +12,10 @@ end
 def reduce (array, starting_value = nil)
   index = 0
   while index<array.length
-    total = yield(array[index], starting_value)
+  if starting_value == nil
+    total = yield(array[index])
+  else  
+    
     index+=1
   end
   total
