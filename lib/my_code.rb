@@ -7,5 +7,4 @@ def my_map(input)
     i += 1
   end
   return new
-  
 end
