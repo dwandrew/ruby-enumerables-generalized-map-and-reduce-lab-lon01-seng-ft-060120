@@ -10,10 +10,12 @@ def map(input)
 end
 
 def reduce (array, starting_value = nil)
-  index = 0
   if starting_value
+    index = 0
+    
     total = yield(array[index], starting_value)
   else
+    index = 0
     total = yield(array[index])
   end
     index+=1
