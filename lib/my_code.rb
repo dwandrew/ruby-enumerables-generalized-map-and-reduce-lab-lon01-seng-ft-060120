@@ -1,6 +1,5 @@
 # Your Code Here
 def map(input)
-  new = []
-  new.push(input)
+  new = input
   return new
 end
