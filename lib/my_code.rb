@@ -9,10 +9,9 @@ def map(input)
   return new
 end
 
-def reduce (array, starting_value = '')
+def reduce (array, starting_value = nil)
   index = 0
   while index<array.length
-  if starting_value
     total = yield(array[index], starting_value)
     index+=1
   end
