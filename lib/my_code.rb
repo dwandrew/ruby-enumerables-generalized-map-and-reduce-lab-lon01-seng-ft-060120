@@ -3,7 +3,7 @@ def my_map(input)
   new = []
   i = 0
   while i < source_array.length do
-    input
+    new.push(input)
     i += 1
   end
   return new
