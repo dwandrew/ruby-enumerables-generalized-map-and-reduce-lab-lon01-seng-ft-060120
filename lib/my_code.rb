@@ -10,5 +10,11 @@ def map(input)
 end
 
 def reduce (array, other = nil)
-  
+  total = other
+  index = 0
+  while index< input.length
+  new.push(yield(input[index]))
+  index+=1
+  end
+  return new
 end
