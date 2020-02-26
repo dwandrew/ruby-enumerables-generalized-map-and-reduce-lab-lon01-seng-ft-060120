@@ -9,6 +9,7 @@ def map(input)
   return new
 end
 
-def reduce (array, value)
+def reduce (array, starting_value)
+  
   
 end
