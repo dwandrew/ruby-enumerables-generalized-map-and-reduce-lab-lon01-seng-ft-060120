@@ -9,4 +9,6 @@ def map(input)
   return new
 end
 
-def reduce
+def reduce (array, other = nil)
+
+end
