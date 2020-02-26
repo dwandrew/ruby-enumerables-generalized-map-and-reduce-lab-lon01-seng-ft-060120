@@ -15,7 +15,7 @@ def reduce (array, starting_value = nil)
   if starting_value != nil
     total = yield(array[index], starting_value)
   else
-    total = yield(array[index])
+    total = yield(array[index], array[index+1])
   end
     index+=1
   end
