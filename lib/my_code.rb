@@ -11,7 +11,6 @@ end
 
 def reduce (array, starting_value = '')
   index = 0
-  total = ''
   while index<array.length
     total = yield(array[index], starting_value)
     index+=1
