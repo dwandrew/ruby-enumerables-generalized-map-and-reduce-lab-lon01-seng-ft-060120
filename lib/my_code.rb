@@ -1,7 +1,5 @@
 # Your Code Here
-def map(input)
-  new =[]
-  p input
-  
+def map(input, block)
+  new = input do |block|
   return new
 end
